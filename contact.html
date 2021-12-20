@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Harish</title>
+        <style>
+            body {
+                background-color: #263323;
+                color: blue;
+                font-family:'Harlow Solid';
+            }
+            h1 {
+                text-align: center;
+            }
+
+            nav {
+            overflow: hidden;
+            background-color: rgb(130,240,200);
+            }
+
+            nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            p {
+                text-align: center;
+                font-size:x-large;
+            }
+
+            body {
+                background-image: url('background.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <div class="container-fluid">
+    <body>
+        <h1>Harish's Blog</h1>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+            </nav>
+            <h3>Contact</h3>
+        </header>
+        <p style="color:white;text-align: center;font-size:xx-large;font-family:'algerian', Times, serif;padding-top: 100px;" id="js">
+            Click <button onclick="getdetails()">Here</button> to view Contact Details</p>
+    </body>
+    </div>
+    <script>
+        function getdetails()
+        {
+            document.getElementById("js").innerHTML="Mobile no:9080845256,email id:harishat375@gmail.com"
+        }
+    </script>
+</html>
